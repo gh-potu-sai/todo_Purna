@@ -17,34 +17,67 @@
 
 ## 🚀 Installation Instructions
 
+---
+
 ### 🔧 Prerequisites
 
-- Node.js (v18+)
-- Java 21
-- Maven 3.9+
-- MySQL Server
+Before running this project, ensure you have the following installed on your system:
+
+- **Node.js** (v18+)
+- **Java 21**
+- **Maven 3.9+**
+- **MySQL Server**
 
 ---
 
-### 📦 Backend Setup
+### 📦 Backend Setup (Spring Boot + MySQL)
 
 ```bash
+# 1. Navigate to the backend directory
 cd backend
-# Create MySQL DB `tododb` first
+
+# 2. Configure your DB credentials (username & password)
+in src/main/resources/application.properties
+
+# 3. Create a MySQL database named 'tododb'
+#    You can use MySQL CLI or Workbench:
+CREATE DATABASE tododb;
+USE tododb;
+
+# 4. Build and run the Spring Boot application
 mvn clean install
 mvn spring-boot:run
+
+# ✅ Backend runs at: http://localhost:8081
+
+
+# ─────────────────────────────────────────────
+# ⚙️ Backend Technologies Used (Auto-installed via Maven)
+# ─────────────────────────────────────────────
+# 💡 spring-boot-starter-web       → For REST API development
+# 💡 spring-boot-starter-data-jpa  → Hibernate ORM for DB access
+# 💡 mysql-connector-j             → MySQL DB connectivity
+# 💡 lombok                        → Reduces boilerplate (auto getters/setters)
+# 💡 spring-boot-devtools          → Hot reloading during development
+# 💡 (Optional) spring-security + JWT → For user authentication
 ```
 
----
 
 ### 💻 Frontend Setup
 
 ```bash
+# 1. Navigate to the frontend directory
 cd frontend
-npm install
-npm start
-```
 
+# 2. Install all required React modules with legacy peer support
+npm install react-router-dom axios react-toastify react-datepicker react-modal --legacy-peer-deps
+
+# 3. Start the React development server
+npm start
+
+# ✅ The frontend will start at: http://localhost:3000
+
+```
 ---
 
 ## 🔑 How to Use
