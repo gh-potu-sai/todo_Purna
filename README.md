@@ -154,9 +154,9 @@ npm start
 
 
 <p float="left">
-  <img src="https://github.com/gh-potu-sai/todo_Purna/blob/main/screenshots/Frontend_Folder.png?raw=true" width="45%" height="600" />
+  <img src="https://github.com/gh-potu-sai/todo_Purna/blob/main/screenshots/Frontend_Folder.png?raw=true" width="45%" height="500" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/gh-potu-sai/todo_Purna/blob/main/screenshots/Backend_Folder.png?raw=true" width="45%" height="600" />
+  <img src="https://github.com/gh-potu-sai/todo_Purna/blob/main/screenshots/Backend_Folder.png?raw=true" width="45%" height="500" />
 </p>
 
 ---
