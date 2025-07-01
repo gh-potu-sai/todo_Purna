@@ -79,9 +79,9 @@ npm start
 
 ### 🔐 Login & 📝 Registration
 <p float="left">
-  <img src="https://github.com/gh-potu-sai/todo_Purna/blob/main/screenshots/Login.png?raw=true" width="49%" height="400" />
+  <img src="https://github.com/gh-potu-sai/todo_Purna/blob/main/screenshots/Login.png?raw=true" width="40%" height="400" />
   &nbsp;&nbsp;
-  <img src="https://github.com/gh-potu-sai/todo_Purna/blob/main/screenshots/Registration.png?raw=true" width="49%" height="400" />
+  <img src="https://github.com/gh-potu-sai/todo_Purna/blob/main/screenshots/Registration.png?raw=true" width="40%" height="400" />
 </p>
 
 ---
